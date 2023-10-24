@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  padding: 50px;
+  font-family: "Open Sans", sans-serif;
+  background-color: rgb(255, 255, 255);
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUiIGhlaWdodD0iMTUiIHZpZXdCb3g9IjAgMCAxNSAxNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGNpcmNsZSBjeD0iMS41IiBjeT0iMS41IiByPSIwLjUiIGZpbGw9ImJsYWNrIi8+CjxjaXJjbGUgY3g9IjExLjUiIGN5PSIxLjUiIHI9IjAuNSIgZmlsbD0iYmxhY2siLz4KPGNpcmNsZSBjeD0iMS41IiBjeT0iMTEuNSIgcj0iMC41IiBmaWxsPSJibGFjayIvPgo8Y2lyY2xlIGN4PSIxMS41IiBjeT0iMTEuNSIgcj0iMC41IiBmaWxsPSJibGFjayIvPgo8Y2lyY2xlIGN4PSI2LjUiIGN5PSIxLjUiIHI9IjAuNSIgZmlsbD0iYmxhY2siLz4KPGNpcmNsZSBjeD0iNi41IiBjeT0iMTEuNSIgcj0iMC41IiBmaWxsPSJibGFjayIvPgo8Y2lyY2xlIGN4PSIxLjUiIGN5PSI2LjUiIHI9IjAuNSIgZmlsbD0iYmxhY2siLz4KPGNpcmNsZSBjeD0iMTEuNSIgY3k9IjYuNSIgcj0iMC41IiBmaWxsPSJibGFjayIvPgo8Y2lyY2xlIGN4PSI2LjUiIGN5PSI2LjUiIHI9IjAuNSIgZmlsbD0iYmxhY2siLz4KPC9zdmc+Cg==);
+}
+
+.list {
+  width: 65%;
+  margin: auto;
+  padding: 50px;
+  background-color: white;
+  font-weight: 700;
+}
+
+p {
+  margin-top: 15px;
+}
+/* пишите код в этом файле */
+/* выбираем все элементы с тегом div на странице */
+div {
+  font-size: 18px;
+}
+div .app {
+  font-weight: normal;
+}
+div p {
+  margin-left: 20px;
+}
+/* ссылки с классом source */
+a.source {
+  color: #fd24af;
+  text-decoration: none;
+}
+
+/* элементы с классами app и best-choice одновременно */
+.app.best-choice {
+  font-style: italic;
+}
