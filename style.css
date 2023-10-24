@@ -25,8 +25,7 @@ body {
 p {
   margin-top: 15px;
 }
-/* пишите код в этом файле */
-/* выбираем все элементы с тегом div на странице */
+
 div {
   font-size: 18px;
 }
@@ -36,13 +35,12 @@ div .app {
 div p {
   margin-left: 20px;
 }
-/* ссылки с классом source */
+
 a.source {
   color: #fd24af;
   text-decoration: none;
 }
 
-/* элементы с классами app и best-choice одновременно */
 .app.best-choice {
   font-style: italic;
 }
